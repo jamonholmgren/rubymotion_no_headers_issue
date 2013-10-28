@@ -1,6 +1,15 @@
 rubymotion_no_headers_issue
 ===========================
 
+## UPDATE: found a fix:
+
+[https://github.com/johnezang/JSONKit/pull/140](https://github.com/johnezang/JSONKit/pull/140)
+
+```ruby
+pod 'JSONKit',:git => 'git@github.com:matsu911/JSONKit.git'
+```
+
+
 Steps to replicate issue:
 
 1. Run `bundle`
